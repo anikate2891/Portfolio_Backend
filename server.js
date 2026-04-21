@@ -7,7 +7,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: "https://portfolio-frontend-theta-flame.vercel.app/" 
+  origin: "https://portfolio-frontend-theta-flame.vercel.app" 
 }));
 app.use(express.json());
 
